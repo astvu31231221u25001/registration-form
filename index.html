@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+<div class="regform">
+    <form action="Backend.php">
+        <h3>Registration Form</h3>
+        <div class="container">
+            <input type="text" name="First name" placeholder="First name">
+        </div>
+            <div class="container">
+                 <input type="text" name="Last name" placeholder="Last name">
+            </div>
+            <div class="container">
+                <input type="email" name="Email" placeholder="Email">
+            </div>
+            <div class="container">
+                <input type="password" name="Password" placeholder="Password">
+            </div>
+            <div class="radio">
+               Gender: &nbsp;<input type="radio" name="myGender">Male &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="myGender">Female
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="submit">  Are you Eligible?
+            </div>
+            <div  class="btn">
+                <button class="btn2"  type="reset">Cancel</button>
+                <button class="btn1" type="submit">Register</button>
+            </div>
+    </form>
+</div>
+</body>
+</html>
